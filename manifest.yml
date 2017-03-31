@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IoT-Coursera-basdel
+  host: IoT-Coursera-basdel
+  disk_quota: 1024M
+  services:
+  - IoT-Coursera-basdel-cloudantNoSQLDB
+  - IoT-Coursera-basdel-iotf-service
